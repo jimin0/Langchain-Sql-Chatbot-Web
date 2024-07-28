@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Langchain Chatbot',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
       ),
       home: MainPage(),
       routes: {
