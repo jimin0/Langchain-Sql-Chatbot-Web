@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// API Key 입력 화면
 class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

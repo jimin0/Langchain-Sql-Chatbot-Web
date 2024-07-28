@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// 메인화면이자 채팅 화면 
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});

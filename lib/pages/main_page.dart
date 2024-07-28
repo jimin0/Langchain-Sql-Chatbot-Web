@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// 연결 페이지 (임시) 
+// API KEY 입력화면, Chatbot 메인화면으로 이동
 
 class MainPage extends StatelessWidget {
   @override

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'chat_screen.dart';
-import 'main_page.dart';
-import 'setting_page.dart';
+import 'pages/chat_screen.dart';
+import 'pages/main_page.dart';
+import 'pages/setting_page.dart';
+
+// main.dart
 
 void main() {
   runApp(MyApp());
