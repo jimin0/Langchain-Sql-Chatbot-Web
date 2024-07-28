@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomButtons extends StatelessWidget {
+// 추천 질문 버튼
+class MainChatRecoButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row( // 수평 정렬

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomSearchBar extends StatelessWidget {
+// 검색바 
+class MainChatSearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
