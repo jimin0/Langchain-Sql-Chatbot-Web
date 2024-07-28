@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'main_page.dart';
 import 'setting_page.dart';
 
 void main() {
@@ -18,25 +19,6 @@ class MyApp extends StatelessWidget {
       routes: {
         '/setting' : (context) => SettingsPage(),
       },
-    );
-  }
-}
-
-class MainPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('MainPage'),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/setting');
-          },
-          child: Text('API Key 입력 화면으로 이동'),
-        ),
-      ),
     );
   }
 }
