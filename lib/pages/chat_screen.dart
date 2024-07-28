@@ -14,6 +14,7 @@ class ChatScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Chat Screen'),
       ),
+      backgroundColor: Colors.white,
       body: Row(
         children: <Widget>[
           MainSidebar(), // 사이드바
